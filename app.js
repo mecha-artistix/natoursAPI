@@ -75,10 +75,10 @@ module.exports = app;
 
 // Rough HERE
 
-// app.use((req, res, next) => {
-//   console.log('Hello From MiddleWare 🫠');
-//   next();
-// });
+app.use((req, res, next) => {
+  console.log('Hello From MiddleWare 🫠');
+  next();
+});
 
 // app.use((req, res, next) => {
 //   console.log('Hello From MiddleWare 🫠');
